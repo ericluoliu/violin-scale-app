@@ -6,12 +6,6 @@ Getting Started:
 
 2. Navigate to the project directory
 
-3. To install necessary dependencies, run:
+3. To install necessary dependencies, run $ pip install -r requirements.txt
 
-  $ pip install -r requirements.txt
-
-4. Run:
-
-  $ python main.py 
-
-  to launch the web application
+4. Run $ python main.py to launch the web application
