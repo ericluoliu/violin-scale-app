@@ -2,10 +2,15 @@
 Test your 2 octave violin major scales using this web application!
 
 Getting Started:
-1. Clone the git repository onto your local system
+Clone the git repository onto your local system
 
-2. Navigate to the project directory
+Navigate to the project directory
 
-3. To install necessary dependencies, run $ pip install -r requirements.txt
+To install necessary dependencies, run 
+$ pip install -r requirements.txt 
+Guide for installing pip can be found here: https://pip.pypa.io/en/stable/installing/
 
-4. Run $ python main.py to launch the web application
+Run 
+$ python main.py
+
+Use the link provided in the terminal to launch the web application
