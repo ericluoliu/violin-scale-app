@@ -1,0 +1,184 @@
+def createFrequencies(scaleName, direction):
+    frequencies = [None] * 15
+    if scaleName == "fmajor":
+        frequencies[0] = 349.228
+        frequencies[1] = 391.995
+        frequencies[2] = 440
+        frequencies[3] = 466.164
+        frequencies[4] = 523.251
+        frequencies[5] = 587.33
+        frequencies[6] = 659.255
+        frequencies[7] = 698.456
+        frequencies[8] = 783.991
+        frequencies[9] = 880
+        frequencies[10] = 932.328
+        frequencies[11] = 1046.502
+        frequencies[12] = 1174.659
+        frequencies[13] = 1318.51
+        frequencies[14] = 1396.913
+    if scaleName == "cmajor":
+        frequencies[0] = 261.626
+        frequencies[1] = 293.665
+        frequencies[2] = 329.628
+        frequencies[3] = 349.228
+        frequencies[4] = 391.995
+        frequencies[5] = 440
+        frequencies[6] = 493.883
+        frequencies[7] = 523.251
+        frequencies[8] = 587.33
+        frequencies[9] = 659.255
+        frequencies[10] = 698.456
+        frequencies[11] = 783.991
+        frequencies[12] = 880	
+        frequencies[13] = 987.767
+        frequencies[14] = 1046.502
+    if scaleName == "gmajor":
+        frequencies[0] = 195.998
+        frequencies[1] = 220
+        frequencies[2] = 246.942
+        frequencies[3] = 261.626
+        frequencies[4] = 293.665
+        frequencies[5] = 329.628
+        frequencies[6] = 369.994
+        frequencies[7] = 391.995
+        frequencies[8] = 440
+        frequencies[9] = 493.883
+        frequencies[10] = 523.251
+        frequencies[11] = 587.33
+        frequencies[12] = 659.255
+        frequencies[13] = 739.989
+        frequencies[14] = 783.991
+    if scaleName == "dmajor":
+        frequencies[0] = 293.665
+        frequencies[1] = 329.628
+        frequencies[2] = 369.994
+        frequencies[3] = 391.995
+        frequencies[4] = 440
+        frequencies[5] = 493.883
+        frequencies[6] = 554.365
+        frequencies[7] = 587.33
+        frequencies[8] = 659.255
+        frequencies[9] = 739.989
+        frequencies[10] = 783.991
+        frequencies[11] = 880	
+        frequencies[12] = 987.767
+        frequencies[13] = 1108.731
+        frequencies[14] = 1174.659
+    if scaleName == "amajor":
+        frequencies[0] = 220
+        frequencies[1] = 246.942
+        frequencies[2] = 277.183
+        frequencies[3] = 293.665
+        frequencies[4] = 329.628
+        frequencies[5] = 369.994
+        frequencies[6] = 415.305
+        frequencies[7] = 440
+        frequencies[8] = 493.883
+        frequencies[9] = 554.365
+        frequencies[10] = 587.33
+        frequencies[11] = 659.255
+        frequencies[12] = 739.989
+        frequencies[13] = 830.609
+        frequencies[14] = 880
+    if scaleName == "emajor":
+        frequencies[0] = 329.628
+        frequencies[1] = 369.994
+        frequencies[2] = 415.305
+        frequencies[3] = 440
+        frequencies[4] = 493.883
+        frequencies[5] = 554.365
+        frequencies[6] = 622.254
+        frequencies[7] = 659.255
+        frequencies[8] = 739.989
+        frequencies[9] = 830.609
+        frequencies[10] = 880
+        frequencies[11] = 987.767
+        frequencies[12] = 1108.731
+        frequencies[13] = 1244.508
+        frequencies[14] = 1318.51
+    if scaleName == "bmajor":
+        frequencies[0] = 246.942
+        frequencies[1] = 277.183
+        frequencies[2] = 311.127
+        frequencies[3] = 329.628
+        frequencies[4] = 369.994
+        frequencies[5] = 415.305
+        frequencies[6] = 466.164
+        frequencies[7] = 493.883
+        frequencies[8] = 554.365
+        frequencies[9] = 622.254
+        frequencies[10] = 659.255
+        frequencies[11] = 739.989
+        frequencies[12] = 830.609
+        frequencies[13] = 932.328
+        frequencies[14] = 987.767
+    if scaleName == "b♭major":
+        frequencies[0] = 233.082
+        frequencies[1] = 261.626
+        frequencies[2] = 293.665
+        frequencies[3] = 311.127
+        frequencies[4] = 349.228
+        frequencies[5] = 391.995
+        frequencies[6] = 440
+        frequencies[7] = 466.164
+        frequencies[8] = 523.251
+        frequencies[9] = 587.33
+        frequencies[10] = 622.254
+        frequencies[11] = 698.456
+        frequencies[12] = 783.991
+        frequencies[13] = 880
+        frequencies[14] = 932.328
+    if scaleName == "e♭major":
+        frequencies[0] = 311.127
+        frequencies[1] = 349.228
+        frequencies[2] = 391.995
+        frequencies[3] = 415.305
+        frequencies[4] = 466.164
+        frequencies[5] = 523.251
+        frequencies[6] = 587.33
+        frequencies[7] = 622.254
+        frequencies[8] = 698.456
+        frequencies[9] = 783.991
+        frequencies[10] = 830.609
+        frequencies[11] = 932.328
+        frequencies[12] = 1046.502	
+        frequencies[13] = 1174.659
+        frequencies[14] = 1174.659
+    if scaleName == "a♭major":
+        frequencies[0] = 207.652
+        frequencies[1] = 233.082
+        frequencies[2] = 261.626
+        frequencies[3] = 277.183
+        frequencies[4] = 311.127
+        frequencies[5] = 349.228
+        frequencies[6] = 391.995
+        frequencies[7] = 415.305
+        frequencies[8] = 466.164
+        frequencies[9] = 523.251
+        frequencies[10] = 554.365
+        frequencies[11] = 622.254
+        frequencies[12] = 698.456
+        frequencies[13] = 783.991
+        frequencies[14] = 830.609
+    if scaleName == "d♭major":
+        frequencies[0] = 277.183
+        frequencies[1] = 311.127
+        frequencies[2] = 349.228
+        frequencies[3] = 369.994
+        frequencies[4] = 415.305
+        frequencies[5] = 466.164
+        frequencies[6] = 523.251
+        frequencies[7] = 554.365
+        frequencies[8] = 622.254
+        frequencies[9] = 698.456
+        frequencies[10] = 739.989
+        frequencies[11] = 830.609
+        frequencies[12] = 932.328
+        frequencies[13] = 1046.502
+        frequencies[14] = 1108.731
+    
+
+    if direction == "descending":
+        frequencies = reversed(frequencies)
+
+    return frequencies

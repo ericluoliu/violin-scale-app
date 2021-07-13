@@ -1,0 +1,5 @@
+Werkzeug==1.0.1
+numpy==1.19.5
+Flask==1.1.2
+pydub==0.25.1
+aubio==0.4.9

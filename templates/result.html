@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Score</title>
+  <link type="text/css" rel="stylesheet" href="{{ url_for('static',filename='styles/styles.css') }}">
+</head>
+<body>
+
+<center>
+<h1>Your Score</h1>
+<br>
+<div class="gradeCircle">{{letterGrade}}</div>
+<br>
+<h3>Your scale had an accuracy of {{ accuracy }}%</h3>  
+<br>
+</center>
+
+<div class="middleColumns">
+  <h3>
+    {% for note,deviation in zip(notes,deviations) %}    <!-- Jinja2 -->
+        {{note}}&emsp;:&emsp;play {{deviation}} Hz
+        <br>
+    {% endfor %}
+  </h3>
+</div>
+
+<script> 
+  var deviations = {{ deviations|safe }}
+  var accuracy = {{ accuracy|safe }}
+  var letterGrade = {{ letterGrade|safe }}
+  var notes = {{ notes|safe }}
+</script>
+
+</body>
+</html>     
