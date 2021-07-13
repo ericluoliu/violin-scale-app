@@ -8,10 +8,10 @@ Getting Started:
 
 3. To install necessary dependencies, run:
 
-$ pip install -r requirements.txt
+  $ pip install -r requirements.txt
 
 4. Run:
 
-$ python main.py 
+  $ python main.py 
 
-to launch the web application
+  to launch the web application
