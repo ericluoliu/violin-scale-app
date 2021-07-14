@@ -2,6 +2,7 @@
 Test your 2 octave violin major scales using this web application!
 
 Getting Started:
+
 Clone the git repository onto your local system
 
 Navigate to the project directory
