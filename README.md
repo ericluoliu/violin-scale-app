@@ -7,6 +7,8 @@ Clone the git repository onto your local system
 
 Navigate to the project directory
 
+Ensure you are using python==3.8
+
 To install necessary dependencies, run 
 $ pip install -r requirements.txt 
 
