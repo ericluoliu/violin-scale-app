@@ -9,6 +9,7 @@ Navigate to the project directory
 
 To install necessary dependencies, run 
 $ pip install -r requirements.txt 
+
 Guide for installing pip can be found here: https://pip.pypa.io/en/stable/installing/
 
 Install SOX https://sourceforge.net/projects/sox/files/sox/ for pitch analysis
